@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: Aleblazer
+      url-base: https://github.com/Aleblazer
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: Aleblazer
+      revision: Zodiark
       import: app/west.yml
   self:
     path: config
